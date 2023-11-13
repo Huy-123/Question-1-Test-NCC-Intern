@@ -73,6 +73,7 @@ body {
 .logo img{
 	width: 310px;
 	height: 122px;
+	flex-shrink: 0;
 }
 
 .description{
@@ -80,17 +81,20 @@ body {
 	flex-direction: column;
 	align-items: center;
 	width: 1510px;
-	height:210px;
+	height: 210px;
 	background-color: #EFEFEF;
-	margin-top: 35px;
+	margin-top: 30px;
 }
 
 .description-h{
-	font-weight: 700;
+	color: #000;
+	font-family: Roboto;
 	font-size: 18px;
-	margin-top: 36px;
-	margin-bottom: 0;
-	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-top: 38px;
+	margin-bottom: 18px;
 }
 
 .description-p{
@@ -99,6 +103,7 @@ body {
 	text-align: center;
 	width: 972px;
 	height: 95px;
+	margin-top: 0px;
 	margin-bottom: 0px;
 	font-family: 'Roboto';
 }
@@ -115,12 +120,18 @@ body {
 }
 
 .technology-item-h{
-	font-size:24px;
-	font-weight: 700;
+	width: 470px;
+	height: 28px;
 	font-family: 'Roboto';
+	color: #000;
+	font-family: Roboto;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
 }
 
-.technology-item-im{
+.technology-item-img{
 	width: 128px;
 	height: 128px;
 }
